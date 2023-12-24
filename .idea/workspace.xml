@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d084b5d-32ed-497d-9603-8138c36285c2" name="Changes" comment="added" />
+    <list default="true" id="4d084b5d-32ed-497d-9603-8138c36285c2" name="Changes" comment="added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Three/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Three/Utils/DataBaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Three/bot/FilmCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Three/bot/MyBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Three/bot/TelegramBotUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Three/bot/UserStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -42,6 +53,7 @@
   &quot;keyToString&quot;: {
     &quot;Application.App.executor&quot;: &quot;Run&quot;,
     &quot;Application.App2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Three.App.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -51,7 +63,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.App2">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Three.bot" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Three.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.workOne.App" />
       <module name="data_base" />
@@ -78,8 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Three.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Three.App" />
+      <module name="data_base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Three.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Three.App" />
         <item itemvalue="Application.App2" />
         <item itemvalue="Application.App" />
       </list>
@@ -109,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702752236610</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added">
+      <option name="closed" value="true" />
+      <created>1702752264939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702752264939</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
