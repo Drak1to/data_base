@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d084b5d-32ed-497d-9603-8138c36285c2" name="Changes" comment="added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Three/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Three/Utils/DataBaseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Three/bot/FilmCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Three/bot/MyBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Three/bot/TelegramBotUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Three/bot/UserStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Four/Utils/DataBaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Four/app4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Four/bot/MyBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Four/bot/SportClubUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Four/models/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <recent name="Three.bot" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Three.App">
+  <component name="RunManager" selected="Application.App4">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.workOne.App" />
       <module name="data_base" />
@@ -95,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Four.App4" />
+      <module name="data_base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Four.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Three.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Three.App" />
       <module name="data_base" />
@@ -110,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App4" />
         <item itemvalue="Application.Three.App" />
         <item itemvalue="Application.App2" />
         <item itemvalue="Application.App" />
@@ -148,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702752264939</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added">
+      <option name="closed" value="true" />
+      <created>1703415404506</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703415404506</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

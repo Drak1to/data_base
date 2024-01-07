@@ -23,9 +23,7 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="a7b80abb-9406-4b45-9678-65a9bdecdd22" object-ref="schemas/telegrambot/tables/users" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="a7b80abb-9406-4b45-9678-65a9bdecdd22" />
@@ -35,6 +33,7 @@
     <filter-actions connection-id="a7b80abb-9406-4b45-9678-65a9bdecdd22" dataset="cinema.ratings_user" active-filter-id="" />
     <filter-actions connection-id="a7b80abb-9406-4b45-9678-65a9bdecdd22" dataset="telegrambot.users" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="a7b80abb-9406-4b45-9678-65a9bdecdd22" dataset="cinema.users" active-filter-id="" />
+    <filter-actions connection-id="a7b80abb-9406-4b45-9678-65a9bdecdd22" dataset="telegrambot.films" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="a7b80abb-9406-4b45-9678-65a9bdecdd22" dataset="cinema.movie" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="a7b80abb-9406-4b45-9678-65a9bdecdd22" dataset="cinema.movies" active-filter-id="37b99b20-061a-4371-bc1f-68f7f70f81f5">
       <filter id="37b99b20-061a-4371-bc1f-68f7f70f81f5" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
