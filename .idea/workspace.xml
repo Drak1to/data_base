@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d084b5d-32ed-497d-9603-8138c36285c2" name="Changes" comment="added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Four/Utils/DataBaseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Four/app4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Four/bot/MyBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Four/bot/SportClubUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Four/models/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Four/Utils/DataBaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Four/Utils/DataBaseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Four/bot/MyBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Four/bot/MyBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +43,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.App2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Three.App.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.App2.executor": "Run",
+    "Application.App4.executor": "Debug",
+    "Application.Three.App.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Three.bot" />
@@ -168,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703415404506</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added">
+      <option name="closed" value="true" />
+      <created>1704625131999</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704625131999</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -183,6 +188,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/two/App2.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Four/bot/MyBot.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Four/bot/MyBot.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Four/bot/MyBot.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

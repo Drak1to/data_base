@@ -33,7 +33,29 @@ public class MyBot extends TelegramLongPollingBot {
                 } catch (SQLException e) {
                     throw new RuntimeException(e);
                 }
+            } else if (command.startsWith("/myInfo")) {
+                showClientInfo(msg);
             }
+        }
+    }
+
+    private void showClientInfo(Message msg) {
+        String[] word = msg.getText().split(" ");
+
+        if(word.length != 2) {
+            sendMessage(msg, "Неправильний формат команди. Використовуйте /myInfo {номер_телефону}");
+            return;
+        }
+
+        String phoneNumber = word[1];
+        DataBaseHandler dataBaseHandler = new DataBaseHandler();
+        dataBaseHandler.getConnection();
+
+        Client client = dataBaseHandler.getClientByNumber(phoneNumber);
+        if(client != null){
+            sendMessage(msg, client.toString());
+        }else {
+            sendMessage(msg, "Client has not found");
         }
     }
 
@@ -67,3 +89,5 @@ public class MyBot extends TelegramLongPollingBot {
         }
     }
 }
+
+
