@@ -6,6 +6,34 @@ public class Client {
     private String lastName;
     private String phoneNumber;
     private int visitsCount;
+   private String dayVisits;
+   private String comments;
+   private int awardCount;
+
+
+
+    public Client(int id, String firstName, String lastName, String phoneNumber, int visitsCount, String dayVisits, String comments, int awardCount) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phoneNumber = phoneNumber;
+        this.visitsCount = visitsCount;
+        this.dayVisits = dayVisits;
+        this.comments = comments;
+        this.awardCount = awardCount;
+
+    }
+
+    public Client(String firstName, String lastName, String phoneNumber, int visitorsCount, String dayVisits, String comments, int awardCount) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phoneNumber = phoneNumber;
+        this.visitsCount = visitorsCount;
+        this.dayVisits = dayVisits;
+        this.comments = comments;
+        this.awardCount = awardCount;
+
+    }
 
     public Client() {
     }
@@ -50,13 +78,28 @@ public class Client {
         this.visitsCount = visitsCount;
     }
 
-    public Client(String firstName, String lastName, String phoneNumber, int visitsCount) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.phoneNumber = phoneNumber;
-        this.visitsCount = visitsCount;
+    public String getDayVisits() {
+        return dayVisits;
+    }
 
+    public void setDayVisits(String dayVisits) {
+        this.dayVisits = dayVisits;
+    }
 
+    public String getComments() {
+        return comments;
+    }
+
+    public void setComments(String comments) {
+        this.comments = comments;
+    }
+
+    public int getAwardCount() {
+        return awardCount;
+    }
+
+    public void setAwardCount(int awardCount) {
+        this.awardCount = awardCount;
     }
 
     @Override
@@ -67,6 +110,9 @@ public class Client {
                 ", lastName='" + lastName + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", visitsCount=" + visitsCount +
+                ", dayVisits='" + dayVisits + '\'' +
+                ", comments='" + comments + '\'' +
+                ", awardCount='" + awardCount + '\'' +
                 '}';
     }
 }
